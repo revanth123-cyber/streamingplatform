@@ -49,7 +49,7 @@ const Search = () => {
     fetchSearch();
     // eslint-disable-next-line
   }, [type, page]);
-
+  console.log("hi");
   return (
     <div>
       <ThemeProvider theme={darkTheme}>
